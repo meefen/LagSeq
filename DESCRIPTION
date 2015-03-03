@@ -1,0 +1,8 @@
+Package: LagSeq
+Title: R implementation of Lag-sequential Analysis
+Version: 0.0.0.9000
+Authors@R: "Bodong Chen <bodong.chen@gmail.com> [aut, cre]"
+Description: R implementation of Lag-sequential Analysis
+Depends: R (>= 3.0.2)
+License: GNU General Public License, version 3
+LazyData: true
