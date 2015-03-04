@@ -25,7 +25,6 @@ Lag_Seq_Groups(df, group=6, seq=1, codes=5)
 
 - [A blog post](http://meefen.github.io/blog/2014/04/17/temporailty-in-dialogues/)
 
-```
 
 ## Disclaimer
 
