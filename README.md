@@ -17,8 +17,8 @@ Read help information of `LagSeq` and `LagSeq_Groups` first. Transform your sequ
 
 ```r
 library(LagSeq)
-load("lagseq_example_data.Rdata")
-Lag_Seq_Groups(df, group=6, seq=1, codes=5)
+data(lagseq_threads) # load example data
+Lag_Seq_Groups(lagseq_threads, group=6, seq=1, codes=5)
 ```
 
 ## Resources

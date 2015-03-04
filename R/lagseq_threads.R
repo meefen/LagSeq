@@ -13,4 +13,4 @@
 #'   \item{type}{two types of threads, e and i}
 #'   \item{unit}{study unit, not really relevant}
 #' }
-"df"
+"lagseq_threads"
