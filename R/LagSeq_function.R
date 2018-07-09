@@ -56,7 +56,7 @@ LagSeq <- function(vec, ncodes=0, lag=1, merge=FALSE) {
   
   ## Expected frequency matrix and Adjusted residuals
   rowtots  = rowSums(freqs) # sums of rows
-  coltots  = rowSums(freqs) # sums of cols
+  coltots  = rowCols(freqs) # sums of cols
   ntrans   = sum(rowtots) # total transitions
   prows    = rowtots / ntrans # probability for each row
   pcols    = coltots / ntrans # probability for each column
